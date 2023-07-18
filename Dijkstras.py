@@ -46,8 +46,9 @@ graph = {
     'E': {'D': 3}
 }
 
-start= 'A'
-destination = 'E'
+start = input("Enter the start node: ").strip().upper()
+destination = input("Enter the destination node: ").strip().upper()
+
 optimal_route = find_optimal_route(graph, start, destination)
 if optimal_route is None:
     print("No route exists.")
