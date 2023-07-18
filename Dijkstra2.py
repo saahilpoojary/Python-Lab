@@ -66,4 +66,39 @@ if optimal_route is None:
     print("No route exists.")
 else:
     print("Optimal route:", optimal_route)
-￼Enter
+"""
+Enter a node (or 'done' if finished): A
+Enter a neighbor node for 'A' (or 'done' if finished): B
+Enter the weight between 'A' and 'B': 5
+Enter a neighbor node for 'A' (or 'done' if finished): C
+Enter the weight between 'A' and 'C': 2
+Enter a neighbor node for 'A' (or 'done' if finished): DONE
+Enter a node (or 'done' if finished): B
+Enter a neighbor node for 'B' (or 'done' if finished): A
+Enter the weight between 'B' and 'A': 5
+Enter a neighbor node for 'B' (or 'done' if finished): D
+Enter the weight between 'B' and 'D': 1
+Enter a neighbor node for 'B' (or 'done' if finished): DONE
+Enter a node (or 'done' if finished): C
+Enter a neighbor node for 'C' (or 'done' if finished): A
+Enter the weight between 'C' and 'A': 2
+Enter a neighbor node for 'C' (or 'done' if finished): D
+Enter the weight between 'C' and 'D': 6
+Enter a neighbor node for 'C' (or 'done' if finished): DONE
+Enter a node (or 'done' if finished): D
+Enter a neighbor node for 'D' (or 'done' if finished): B
+Enter the weight between 'D' and 'B': 1
+Enter a neighbor node for 'D' (or 'done' if finished): C
+Enter the weight between 'D' and 'C': 6
+Enter a neighbor node for 'D' (or 'done' if finished): E
+Enter the weight between 'D' and 'E': 3
+Enter a neighbor node for 'D' (or 'done' if finished): DONE
+Enter a node (or 'done' if finished): E
+Enter a neighbor node for 'E' (or 'done' if finished): D
+Enter the weight between 'E' and 'D': 3
+Enter a neighbor node for 'E' (or 'done' if finished): DONE
+Enter a node (or 'done' if finished): DONE
+Enter the start node: A
+Enter the destination node: E
+Optimal route: ['A', 'C', 'D', 'E']
+"""
