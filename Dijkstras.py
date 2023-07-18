@@ -54,3 +54,9 @@ if optimal_route is None:
     print("No route exists.")
 else:
     print("Optimal route:", optimal_route)
+"""
+Output
+Enter the start node: A
+Enter the destination node: E
+Optimal route: ['A', 'B', 'D', 'E']
+"""
